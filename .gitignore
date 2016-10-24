@@ -18,3 +18,4 @@ log
 log.*
 .vscode/*
 jsconfig.json
+.htpasswd

@@ -7,11 +7,11 @@
 			<p>({{noLinkedItemError}})</p>
 		</div>
 
-		<form class="row content-block" ng-hide="!!redirect || noLinkedItemError">
+		<form class="row" ng-hide="!!redirect || noLinkedItemError">
 			<div class="col-md-8 col-md-offset-2" >
 				<h4 ng-hide="signed">Please sign the CLA for {{params.user}}/{{params.repo}}</h4>
 				<h4 ng-show="signed">You have signed the CLA for {{params.user}}/{{params.repo}}</h4>
-				<div class="cla-box well">
+				<div class="cla-box cla-box-full well">
 					<div ng-bind-html="cla"></div>
 				</div>
 				<form ng-if="hasCustomFields">

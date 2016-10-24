@@ -1,5 +1,6 @@
 // overwrite bootstrap styles
 
+
 // fonts
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 
@@ -302,6 +303,11 @@ small {
   margin-bottom: 10px;
 }
 
+.cla-box-full {
+  height: inherit;
+  overflow-y: auto;
+}
+
 .dots {
   font-size:10px;
   margin-left:10px;
@@ -326,6 +332,11 @@ small {
   /*height:100vH;*/
   padding-top: 150px;
   margin-bottom: 50px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .content-block .row .right-side {
