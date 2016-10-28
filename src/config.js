@@ -23,6 +23,7 @@ module.exports = {
             // required
             user: process.env.GITHUB_USER,
             pass: process.env.GITHUB_PASS,
+            admin_user: process.env.GITHUB_ADMIN_USER,
 
             // required
             token: process.env.GITHUB_TOKEN,
